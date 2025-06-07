@@ -96,10 +96,11 @@ export default function Home() {
         {/* Right side - Main content and three boxes */}
         <div className="w-[75%] ml-2 flex flex-col space-y-2">
           {/* Onchain Chaos box */}
-          <div className="bg-[#3A0519] h-[82%] flex flex-col items-center justify-center text-white rounded-md">
+          <div className="bg-[#3A0519] h-[82%] flex flex-col items-center justify-center text-white rounded-md text-center">
             <h1 className="text-8xl font-extrabold uppercase">Onchain Chaos</h1>
-            <p className="text-3xl font-bold uppercase font-stretch-extra-expanded antialiased">
-              Born from Alpha, raised in Chaos
+            <p className="text-3xl font-bold uppercase max-w-3xl text-center mt-6 text-[#00FFAA]">
+              Trained in silence. Shipped in shadows. Now the terminal writes
+              their prophecy.
             </p>
           </div>
 
@@ -108,30 +109,33 @@ export default function Home() {
             {/* Box 1 */}
             <div className="bg-[#02383C] flex-1 flex flex-col items-center justify-center text-white rounded-md p-4">
               <h2 className="text-2xl font-bold uppercase text-[#FFD700] mb-2">
-                知識 
+                知識
               </h2>
               <p className="text-sm text-center opacity-80">
-                
+                The ancient scripts weren’t written in ink — they were forged in
+                bugs, burns, and buried Git histories.
               </p>
             </div>
 
             {/* Box 2 */}
             <div className="bg-[#02383C] flex-1 flex flex-col items-center justify-center text-white rounded-md p-4">
               <h2 className="text-2xl font-bold uppercase text-[#FFD700] mb-2">
-                スキル 
+                スキル
               </h2>
               <p className="text-sm text-center opacity-80">
-                
+                Some forge products. Others forge prophecy. Rise not just to
+                launch — but to echo across dev legend.
               </p>
             </div>
 
             {/* Box 3 */}
             <div className="bg-[#02383C] flex-1 flex flex-col items-center justify-center text-white rounded-md p-4">
               <h2 className="text-2xl font-bold uppercase text-[#FFD700] mb-2">
-                態度 
+                態度
               </h2>
               <p className="text-sm text-center opacity-80">
-                
+                True power isn’t taught. It’s summoned. From late nights, failed
+                pushes, and chaos only the worthy survive.
               </p>
             </div>
           </div>
