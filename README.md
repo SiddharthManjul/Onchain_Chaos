@@ -42,5 +42,5 @@ https://colorhunt.co/palette/3a0519670d2fa53860ef88ad
 1. Dead Wallet Society - for Degens.
 2. Satoshi's Syndicate - for Core Blockchain Builders.
 3. DeSync Order - for Blockchain Infra Builders.
-4. Stealth Space - for Crypographic Developers.
-5. Deadnet Assembly - for Blockchain Application Developers.
+4. Stealth Alliance - for Crypographic Developers.
+5. Payload Assembly - for Blockchain Application Developers.
