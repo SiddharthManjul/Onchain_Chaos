@@ -108,30 +108,30 @@ export default function Home() {
             {/* Box 1 */}
             <div className="bg-[#02383C] flex-1 flex flex-col items-center justify-center text-white rounded-md p-4">
               <h2 className="text-2xl font-bold uppercase text-[#FFD700] mb-2">
-                Clans
+                知識 
               </h2>
               <p className="text-sm text-center opacity-80">
-                From stealth lords to syndicate coders — choose wisely.
+                
               </p>
             </div>
 
             {/* Box 2 */}
             <div className="bg-[#02383C] flex-1 flex flex-col items-center justify-center text-white rounded-md p-4">
               <h2 className="text-2xl font-bold uppercase text-[#FFD700] mb-2">
-                Build
+                スキル 
               </h2>
               <p className="text-sm text-center opacity-80">
-                MVPs today. Startups tomorrow. Kages forever.
+                
               </p>
             </div>
 
             {/* Box 3 */}
             <div className="bg-[#02383C] flex-1 flex flex-col items-center justify-center text-white rounded-md p-4">
               <h2 className="text-2xl font-bold uppercase text-[#FFD700] mb-2">
-                Alpha
+                態度 
               </h2>
               <p className="text-sm text-center opacity-80">
-                Insider drops. Zero noise. 100% builder signal.
+                
               </p>
             </div>
           </div>
