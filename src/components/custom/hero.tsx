@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useRef, useState } from 'react';
 
 export default function Hero() {
@@ -64,15 +66,7 @@ export default function Hero() {
   );
 }
 
-interface AutoScrollListProps {
-  title: string;
-  description: string;
-  items: string[];
-  className?: string;
-  itemSpacing?: string;
-}
-
-function AutoScrollList({ title, description, items, className = '', itemSpacing = 'lg:space-y-4' }: AutoScrollListProps) {
+function AutoScrollList({ title, description, items, className = '', itemSpacing = 'lg:space-y-4' }: { title: string, description: string, items: string[], className?: string, itemSpacing?: string }) {
   const listRef = useRef<HTMLUListElement>(null);
   const [isPaused, setIsPaused] = useState(false);
   const scrollSpeed = 50; // pixels per second
