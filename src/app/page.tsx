@@ -1,5 +1,5 @@
-import Hero from "../components/custom/hero";
-import DefinitionBox from "../components/custom/definitionBox";
+import Hero from "../custom/hero";
+import DefinitionBox from "../custom/definitionBox";
 
 export default function Home() {
   return (
