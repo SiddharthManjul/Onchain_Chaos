@@ -8,10 +8,14 @@ export default function Hero() {
       style={{ backgroundImage: "url('/hero-bg-2.jpg')" }}
     >
       {/* Optional content over background */}
-      <div className="flex items-center justify-center h-screen">
-        <h1 className="text-white text-4xl font-bold backdrop-blur-md p-2 rounded-bl-xl rounded-tr-xl border-4 ">Onchain Chaos</h1>
+      <div className="flex flex-col top-2 left-2 absolute gap-y-2">
+        <h1 className="text-white text-4xl w-fit font-bold backdrop-blur-xs p-2 rounded-bl-xl rounded-tr-xl border-4 uppercase">
+          Onchain Chaos
+        </h1>
+        <p className="text-white text-4xl w-half font-bold backdrop-blur-xs p-2 rounded-bl-xl rounded-tr-xl border-4 uppercase">
+          Trained in silence. Shipped in shadows. Now the terminal writes their prophecy.
+        </p>
       </div>
     </div>
   );
 }
-
