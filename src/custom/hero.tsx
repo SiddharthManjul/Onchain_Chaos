@@ -108,22 +108,11 @@ export default function Hero() {
               <a href="#" className="text-white hover:text-blue-400 transition-colors text-sm font-medium">
                 ABOUT
               </a>
-              <div className="relative group">
-                <a
-                  href="#"
-                  className="text-white hover:text-blue-400 transition-colors text-sm font-medium flex items-center"
-                >
-                  CHAPTERS
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </a>
-              </div>
               <a href="#" className="text-white hover:text-blue-400 transition-colors text-sm font-medium">
-                PRIZES
+                CONSORTIUMS
               </a>
               <a href="#" className="text-white hover:text-blue-400 transition-colors text-sm font-medium">
-                PROGRAM OUTLINE
+                CONDUITS
               </a>
               <a href="#" className="text-white hover:text-blue-400 transition-colors text-sm font-medium">
                 WHY JOIN
@@ -149,8 +138,7 @@ export default function Hero() {
               style={{ fontFamily: "system-ui, -apple-system, sans-serif" }}
             >
               Onchain
-              <br />
-              <span style={{ color: "#FFD700" }}>Chaos</span>
+              <span style={{ color: "#FFD700" }}> Chaos</span>
             </h1>
 
             {/* Program Outline Section */}
